@@ -16,11 +16,10 @@ h4 {
     padding-bottom: 60px;
     text-align: center;
     top: 40px;
-    margin-left: 200px; 
+    margin-left: 50px; 
     display: block;
     font-size: 3em;
-    font-weight: bold;
-    
+    font-weight: bold;    
     
 }
 .container-2 {
@@ -33,9 +32,9 @@ h4 {
 
 .form-group{
     margin-top: 20px;
-    margin-left: 250px;
-    color: aliceblue;
-    top: 40px;
+    margin-left: 100px;
+    color: rgb(244, 247, 250);
+    top: 20px;
     padding: auto;
   
     
@@ -53,19 +52,26 @@ h4 {
     align-content: center;
     
 }
+@media screen and (max-width: 1067px){
+	#Contacto {
+		text-align: center;
+	}
+}
 
 .form-check{
-    margin-left: 230px;
+    margin-left: 100px;
 }
 
 .btn-primary{
-    margin-left: 245px;
+    margin-left: 105px;
+    top: 30px;
+    bottom: 15%;
+    padding: 30%;
+    margin-left: 10%;
+    
     
 }
-.btn{
-    background-color: #FF00FF;
-    text-decoration-color: aqua;
-}
+
 
 
 /* fin de los estilos de contacto */
@@ -82,17 +88,6 @@ h4 {
 	list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
-
-}
-
-#myFooter a{
-	color:#440303;
-	text-decoration: none;
-}
-
-#myFooter a:hover, #myFooter a:focus{
-	text-decoration: none;
-	color:rgb(192, 79, 79);
 }
 
 #myFooter .myCols{
@@ -103,37 +98,14 @@ h4 {
 #myFooter .social-networks{
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 38px;
+    padding-bottom: 38px;    
 }
 
-#myFooter .social-networks a{
-    font-size: 32px;
-    margin-right: 5px;
-    margin-left: 5px;
-    color: #050505;
-    padding: 10px;
-    transition: 0.2s;
+.my-4{
+    justify-content: center;
+    text-align: center;
+    
 }
-
-#myFooter .social-networks a:hover{
-	text-decoration: none;
-
-}
-
-#myFooter .facebook:hover{
-	color:#080808;
-}
-
-#myFooter .instagram:hover{
-	color:#080808;
-}
-
-#myFooter .twitter:hover{
-	color: #080808;
-}
-
-
-
 @media screen and (max-width: 767px){
 	#myFooter {
 		text-align: center;
@@ -154,64 +126,4 @@ h4 {
 /* fin de los estilos del footer*/
 
 /* inicio de testimonios turistas*/
-
-
-    .col-sm-12 {  
-        padding: 20px;
-        margin-top: 10px;
-        display: flex;
-        justify-content: center;
-          
-    }
-    .m-testimonials{
-        padding-bottom: 5%;
-        
-        
-    }
-   .imagen{
-       padding-left: 1%;
-       width: 10px;
-       font-size:5%;
-       margin-left: -290%;
-       border-top: 10px;
-       
-       
-       
-       
-   }
-    .texto{
-        align-content: left;
-        font-size: 20%;
-        
-
-    }
-    #uno{
-        padding: 20px;
-        margin: 10px;
-        justify-content: left;
-        width: 100px;
-        top: 10%;
-        
-
-    }
-    #dos {
-        padding: 20px;
-        margin: 10px;
-
-    }
-
-    #tres{
-        padding: 20px;
-        margin: 10px;
-
-
-    }
-.container-fluid{
-    margin-left: 10%;
-}
-
-  
     
-    
-
-    /* fin  de testimonios turitas*/
