@@ -1,0 +1,217 @@
+body{
+    width: 100%;
+    
+   
+}
+
+html{
+width: 100%;
+height: 100%;
+}
+/* Inicio de los estilos de contacto*/
+
+h4 {
+    margin-top: 80px;
+    position: relative;
+    padding-bottom: 60px;
+    text-align: center;
+    top: 40px;
+    margin-left: 200px; 
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    
+    
+}
+.container-2 {
+    background-color: indianred;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 70px;
+    display: grid;
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-left: 250px;
+    color: aliceblue;
+    top: 40px;
+    padding: auto;
+  
+    
+}
+.col-sm-9 {
+    width: 100%;
+    height: 100%;
+    color: #f9f9f9;
+}
+.col-auto my-1{
+    margin-left: 250px;
+    
+}
+#Contacto{
+    align-content: center;
+    
+}
+
+.form-check{
+    margin-left: 230px;
+}
+
+.btn-primary{
+    margin-left: 245px;
+    
+}
+.btn{
+    background-color: #FF00FF;
+    text-decoration-color: aqua;
+}
+
+
+/* fin de los estilos de contacto */
+
+
+/* inicio de los estilos del footer */
+
+#myFooter {
+	background-color: rgb(250, 243, 243);
+	color:rgb(12, 12, 12);
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter a{
+	color:#440303;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:rgb(192, 79, 79);
+}
+
+#myFooter .myCols{
+    text-align: center;
+    justify-content: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #050505;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#080808;
+}
+
+#myFooter .instagram:hover{
+	color:#080808;
+}
+
+#myFooter .twitter:hover{
+	color: #080808;
+}
+
+
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 100px;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+/* fin de los estilos del footer*/
+
+/* inicio de testimonios turistas*/
+
+
+    .col-sm-12 {  
+        padding: 20px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+          
+    }
+    .m-testimonials{
+        padding-bottom: 5%;
+        
+        
+    }
+   .imagen{
+       padding-left: 1%;
+       width: 10px;
+       font-size:5%;
+       margin-left: -290%;
+       border-top: 10px;
+       
+       
+       
+       
+   }
+    .texto{
+        align-content: left;
+        font-size: 20%;
+        
+
+    }
+    #uno{
+        padding: 20px;
+        margin: 10px;
+        justify-content: left;
+        width: 100px;
+        top: 10%;
+        
+
+    }
+    #dos {
+        padding: 20px;
+        margin: 10px;
+
+    }
+
+    #tres{
+        padding: 20px;
+        margin: 10px;
+
+
+    }
+.container-fluid{
+    margin-left: 10%;
+}
+
+  
+    
+    
+
+    /* fin  de testimonios turitas*/
